@@ -44,13 +44,15 @@ const FloorPlansSection = () => {
     <section ref={sectionRef} className="bg-red-500 py-20 px-5 -mt-16 sm:-mt-20">
       <div ref={contentRef} className="will-change-transform">
       {/* Heading */}
-      <div className="max-w-7xl mx-auto text-center text-white space-y-4">
-        <h2 className="gsap-fade-up text-xl sm:text-4xl font-serif text-left">
-          Thoughtfully Designed <br/>Floor Plans
+      <div className="max-w-7xl mx-auto text-white space-y-4">
+        <h2 className="gsap-fade-up text-xl sm:text-4xl font-serif text-left lg:text-center lg:whitespace-nowrap">
+          Thoughtfully Designed <br className="lg:hidden" /> Floor Plans
         </h2>
 
-        <p className="gsap-fade-up uppercase tracking-wide text-[10px] opacity-90 ">
-         <p className="text-right -mb-3 mr-9"> Smart layouts that maximize </p> <br/> space, light, and everyday comfort
+        <p className="gsap-fade-up uppercase tracking-wide text-[10px] opacity-90 text-left lg:text-center lg:whitespace-nowrap font-semibold ">
+          <span className="block lg:inline">Smart layouts that maximize</span>
+          <br className="lg:hidden" />
+          <span className="block lg:inline">space, light, and everyday comfort</span>
         </p>
 
         <FlowerMark

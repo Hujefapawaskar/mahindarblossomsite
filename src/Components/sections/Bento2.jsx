@@ -37,12 +37,13 @@ const GallerySection = () => {
     <section className="py-20 px-5 bg-white">
       {/* Heading */}
       <div className="text-center mb-12 space-y-3">
-        <h2 className="gsap-fade-up text-xl sm:text-4xl font-serif font-semibold text-gray-600 text-left ">
+        <h2 className="gsap-fade-up text-xl sm:text-4xl font-serif font-semibold text-gray-600 text-left lg:text-center">
           A <span className="text-red-500">Glimpse</span> of Life at Mahindra Blossom
         </h2>
 
-        <p className="gsap-fade-up uppercase tracking-wide text-[12px] text-gray-600 text-left">
-          View images of homes, amenities, and <br/><p className="text-right text-[10px]">the surrounding environment</p>
+        <p className="gsap-fade-up uppercase tracking-wide text-[12px] text-gray-500 text-left lg:text-center lg:whitespace-nowrap lg:text-[13px] font-semibold">
+          View images of homes, amenities, and{" "}
+          <span className="text-right text-[10px] lg:text-center lg:text-[13px]">the surrounding environment</span>
         </p>
 
         <FlowerMark

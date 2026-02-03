@@ -38,15 +38,16 @@ const AmenitiesBento = () => {
           <br className="lg:hidden" />
           Every Mood
         </h2>
+        <p className="gsap-fade-up uppercase tracking-widest text-sm text-gray-500 mt-2 text-[12px]">
+          Premium amenities that transform your home into a private retreat
+        </p>
         <FlowerMark
           containerClassName="mt-4 text-red-400"
           lineClassName="h-px w-15 bg-red-300"
           className="lg:h-15 h-12 pr-8 w-full"
           alt="flowersvg"
         />
-        <p className="gsap-fade-up uppercase tracking-widest text-sm text-gray-500 mt-2 text-[12px]">
-          Premium amenities that transform your home into a private retreat
-        </p>
+        
       </div>
 
       {/* Bento Grid */}
